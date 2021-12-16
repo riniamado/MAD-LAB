@@ -4,66 +4,92 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:visibility="visible"
-    tools:context=".MainActivity"
-    tools:visibility="visible">
+    android:background="#070707"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
 
-   <TextView
-       android:text="LOGIN"
-       android:layout_marginHorizontal="130dp"
-       android:layout_width="wrap_content"
-       android:layout_marginTop="20dp"
-       android:textSize="30dp"
-       android:textColor="@color/colorPrimaryDark"/>
-    <TableRow
-        android:id="@+id/row1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="50dp">
+    <TableRow>
 
         <TextView
-            android:id="@+id/text1"
-            android:layout_width="163dp"
-            android:layout_height="match_parent"
-            android:layout_marginHorizontal="20dp"
-            android:text="UserName"
-            android:textSize="25dp" />
-
-        <EditText
-            android:id="@+id/edit1"
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:textSize="30dp" />
-    </TableRow>
-
-    <TableRow
-        android:id="@+id/row2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Open..."
+            android:textColor="#C0BFB8" />
 
         <TextView
-            android:id="@+id/text2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginHorizontal="20dp"
-            android:text="Password"
-            android:textSize="25dp" />
-
-        <EditText
-            android:id="@+id/edit2"
-            android:layout_width="203dp"
-            android:layout_height="match_parent"
-            android:textSize="30dp" />
+            android:padding="3dip"
+            android:text="Ctrl-O"
+            android:textColor="#C0BFB8"/>
     </TableRow>
-<TableRow>
-    <TextView/>
-</TableRow>
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="22dp"
-        android:layout_height="50dp"
-        android:layout_marginHorizontal="120dp"
-        android:background="#19961F"
-        android:text="SUBMIT">
-    </Button>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Save..."
+            android:textColor="#C0BFB8"/>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Ctrl-S"
+            android:textColor="#C0BFB8"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Save As..."
+            android:textColor="#C0BFB8"/>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Ctrl-Shift-S"
+            android:textColor="#C0BFB8"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="X Import..."
+            android:textColor="#C0BFB8"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="X Export..."
+            android:textColor="#C0BFB8"/>
+
+        <TextView
+            android:padding="3dip"
+            android:text="Ctrl-E"
+            android:textColor="#C0BFB8"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Quit"
+            android:textColor="#C0BFB8"/>
+    </TableRow>
 </TableLayout>
+
+
+            
